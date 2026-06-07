@@ -1,63 +1,64 @@
 /* Tema padrão (claro) */
 :root {
     /* Backgrounds */
-    --bg-primary: #deedd9;
-    --bg-secondary: #eef3eb;
+    --bg-primary: #f8fafc;
+    --bg-secondary: #f1f5f9;
     --bg-card: #ffffff;
 
     /* Textos */
-    --text-primary: #1c1c1c;
-    --text-secondary: #4b4b4b;
-    --text-muted: #707070;
+    --text-primary: #0f172a;
+    --text-secondary: #334155;
+    --text-muted: #64748b;
 
     /* Marca */
-    --primary: #00a83a;
-    --primary-dark: #028530;  
-    --primary-hover: #008c30;
-    --primary-light: #7ddf9f;
+    --primary: #2563eb;
+    --primary-dark: #1d4ed8;  
+    --primary-hover: #1e40af;
+    --primary-light: #93c5fd;
 
     /* Componentes */
-    --border: #d4d4d4;
-    --shadow: rgba(0, 0, 0, 0.08);
+    --border: #e2e8f0;
+    --shadow: rgba(15, 23, 42, 0.08);
 
     /* Status */
-    --success: #00a83a;
-    --warning: #f4b400;
-    --danger: #e53935;
+    --success: #10b981; /* Verde esmeralda mais frio e vibrante */
+    --warning: #f59e0b;
+    --danger: #ef4444;
 
     /* Extras */
     --link: var(--primary);
-    --focus: #4fd87f;
+    --focus: #bfdbfe;
 }
 
 .darkTheme {
     /* Backgrounds */
-    --bg-primary: #121814;
-    --bg-secondary: #1b241e;
-    --bg-card: #222d25;
+    --bg-primary: #0f111a;
+    --bg-secondary: #161925;
+    --bg-card: #1f2333;
 
     /* Textos */
-    --text-primary: #f4f4f4;
-    --text-secondary: #c8d0ca;
-    --text-muted: #8e9991;
+    --text-primary: #f8fafc;
+    --text-secondary: #cbd5e1;
+    --text-muted: #94a3b8;
 
     /* Marca */
-    --primary: #00c853;
-    --primary-hover: #00e062;
-    --primary-light: #59ff9a;
+    --primary: #8b5cf6;
+    --primary-dark: #6d28d9;  
+    --primary-hover: #7c3aed;
+    --primary-light: #c4b5fd;
 
     /* Componentes */
-    --border: #334038;
-    --shadow: rgba(0, 0, 0, 0.35);
+    --border: #334155;
+    --shadow: rgba(0, 0, 0, 0.4);
 
     /* Status */
-    --success: #00c853;
-    --warning: #ffc107;
-    --danger: #ff5252;
+    --success: #34d399;
+    --warning: #fbbf24;
+    --danger: #f87171;
 
     /* Extras */
-    --link: #59ff9a;
-    --focus: #00e062;
+    --link: #2dd4bf; /* Contraste em teal (azul-esverdeado) para links */
+    --focus: #a78bfa;
 }
 
 * {
@@ -83,6 +84,11 @@ body {
     margin: 0;
     min-height: 100vh;
     max-width: 100%;
+}
+
+header {
+    flex: 1;
+    text-align: center;
 }
 
 main {
@@ -200,6 +206,10 @@ nav ul {
     color: var(--primary-dark);
     font-size: 5rem;
     margin-block: 1.25rem;
+}
+
+.nao {
+    margin-bottom: 0;
 }
 
 .Titulo2 {
