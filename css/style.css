@@ -220,6 +220,20 @@ hr {
     margin-top: 0;
 }
 
+.maracujaja {
+    border-radius: 50px;
+    border: solid var(--primary);
+}
+
+.preparamento {
+    line-height: 2.5rem;
+    text-align-last: center;
+}
+
+.preparamento2 {
+    line-height: 1.25rem;
+}
+
 .referencias {
     display:flex;
     justify-content: space-evenly;
@@ -299,42 +313,42 @@ footer div a:hover{
     justify-content: space-between;
 }
 
-#infoGustavo {
+#infoBife {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40%;
+    width: 50%;
     flex-direction: column;
+    height: 100%;
 }
 
-#infoGustavo ul {
-    list-style: none;
+#infoBife ul {
     padding-left: 0;
 }
 
-#imgGustavo{
+#imgBife {
     border-radius: 50%;
     height: 20rem;
-    border: var(--danger) solid 0.1rem;
+    border: var(--primary) solid 0.2rem;
 }
 
-#infoEduardo {
+#infoStrogonoff {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40%;
+    width: 50%;
     flex-direction: column;
+    height:100%;
 }
 
-#infoEduardo ul {
-    list-style: none;
+#infoStrogonoff ul {
     padding-left: 0;
 }
 
-#imgEduardo{
+#imgStrogonoff {
     border-radius: 50%;
     height: 20rem;
-    border: var(--success) solid 0.1rem;
+    border: var(--primary) solid 0.2rem;
 }
 
 #input * {
