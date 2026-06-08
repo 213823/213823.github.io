@@ -210,6 +210,7 @@ nav ul {
 
 .nao {
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .Titulo2 {
@@ -313,6 +314,10 @@ footer div a:hover{
     justify-content: space-between;
 }
 
+.info {
+    display: flex;
+}
+
 #infoBife {
     display: flex;
     align-items: center;
@@ -368,6 +373,17 @@ footer div a:hover{
     vertical-align: top;
 
     resize: none;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bordaralha {
+    border: solid var(--primary) 1px;
+    padding: 4rem;  
+    border-collapse:collapse;
 }
 
 @media screen and (max-width: 700px) {
