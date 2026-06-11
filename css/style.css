@@ -213,6 +213,23 @@ nav ul {
     margin-top: 0;
 }
 
+.sim {
+    margin-bottom: 100px;
+}
+
+#postagens {
+    gap: 100px;
+    display:flex;
+    justify-content: center;
+}
+
+#medalho {
+    height:256px;
+    width:256px;
+    border:solid var(--primary);
+    border-radius: 16px;
+}
+
 .Titulo2 {
     color: var(--primary);
 }

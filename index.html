@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
 </head>
-<body id="topo">
+<body id="topo" class="noflex">
 
     <nav class="navbar">
         <ul>
@@ -40,20 +40,31 @@
         </div>
     </nav>
 
+    <header>
+        <h1 class="Titulo1 nao">Bem-vindo!</h1>
+        <hr class="sim">
+    </header>
+
     <main>
-        <h1 class="Titulo1">AUTENTICAÇÃO</h1>
+        <article class="sim" style="align-items:center;">
+            <p>Me chamo Eduardo Frantz e seja bem-vindo ao meu blog!</p>
+            <p>Aqui você vai descobrir quem sou eu e me conhecer melhor.</p>
+            <p>Pra começar bem, observe as Últimas Postagens logo abaixo:</p>
+        </article>
         <hr>
         <article>
+            <h2 class="Titulo2">Últimas Postagens</h2>
+            <section id="postagens">
+                <video controls height="256px" width="384px">
+                    <source src="./assets/apolo.mp4">
+                </video>
+                <a href="https://medal.tv/pt/u/Eduardo_Frantz" target="_blank"><img id="medalho" src="./assets/medal.png"></a>
+                <video controls height="256px" width="384px">
+                    <source src="./assets/coruja.mp4">
+                </video>
+            </section>
         </article>
     </main>
-
-    <footer>
-        <div class="referencias">
-            <a href="https://www.cert.br" target="_blank">cert.br</a>
-            <a href="https://www.nic.br" target="_blank">nic.br</a>
-            <a href="https://www.cgi.br" target="_blank">cgi.br</a>
-        </div>
-    </footer>
 
     <span>
         <button><a href="#topo">Voltar</a></button>
