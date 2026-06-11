@@ -235,6 +235,23 @@ hr {
     line-height: 1.25rem;
 }
 
+.noflex {
+    display:contents;
+}
+
+#mainAbout {
+    flex-direction: row;
+    text-align: center;
+}
+
+#foto {
+    border-radius: 60px;
+    width: 406px;
+    height: 540px;
+    margin: 50px;
+    border: var(--primary) solid 0.2rem;
+}
+
 .referencias {
     display:flex;
     justify-content: space-evenly;
