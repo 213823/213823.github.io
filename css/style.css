@@ -71,10 +71,10 @@ html {
     font-size: 16px;
     size: 16px;
 
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
 body {
@@ -215,6 +215,25 @@ nav ul {
 
 .sim {
     margin-bottom: 100px;
+}
+
+.gapzao {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gapzao a {
+    text-decoration: none;
+    color: var(--link);
+}
+
+.gapzao a:hover {
+    color: var(--primary-hover);
+}
+
+.caxa {
+    border: solid var(--primary) 2px;
+    margin: 100px 400px;
 }
 
 #postagens {
