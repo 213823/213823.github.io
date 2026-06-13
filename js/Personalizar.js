@@ -10,7 +10,7 @@ if (tamanhoFonte == null) {
     localStorage.setItem('tamanhoFonte', tamanhoFonte);
 }
 
-/*
+
 // Verifica o title do pagina, "Home" foi colocado no Index
 // Seta o caminho base com referencia na pagina atual
 if (pagina === 'Home') {
@@ -18,7 +18,7 @@ if (pagina === 'Home') {
 } else {
     caminhoBase = '../';
 }
-*/
+
 
 document.documentElement.style.fontSize = tamanhoFonte;
 
