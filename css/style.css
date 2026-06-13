@@ -132,41 +132,23 @@ main {
     height: 100%;
 }
 
-form * {
-    height: 1.2rem;
-    width: 5rem;
-    font-size: 1rem;
-}
-
-#instrucoesSenha {
-    width: fit-content;
-    margin: 0 auto;
-    text-align: left;
-}
-
 li {
     width: fit-content;
     margin: 0 auto;
     text-align: left;
 }
 
-#bttGerarSenha {
-    height: 1.2rem;
-    width: 8rem;
-    font-size: 1rem;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
+a {
+    text-decoration: none;
+    color: var(--link);
 }
 
-#senhaRetorno {
-    font-size: 3rem;
-    color: var(--warning);
-    overflow-wrap: break-word;
-    word-break: break-all;
+footer {
+    text-align:center;
+}
 
-    width: 80%;
-    margin: 0 auto;
+a:hover {
+    color: var(--primary-hover);
 }
 
 nav {
@@ -288,22 +270,6 @@ hr {
     border: var(--primary) solid 0.2rem;
 }
 
-.referencias {
-    display:flex;
-    justify-content: space-evenly;
-    margin: 4px;
-    border-top: solid 1px rgb(from var(--text-primary) r g b / 10%);
-}
-
-footer div a {
-    border: solid rgb(from var(--text-primary) r g b / 10%) 1px;
-    padding: 40px;
-    margin-top: 10px;
-    color: var(--link);
-    text-decoration: none;
-    margin-bottom: 5px;
-}
-
 span {
     position: fixed;
     right: 20px;
@@ -353,10 +319,6 @@ span button a:hover {
 #bttEnviarForm:hover {
     color: var(--primary-hover);
 }
-
-footer div a:hover{
-    color: var(--primary-hover);
-}   
 
 #instrucoesSenha {
     line-height: 2rem;
